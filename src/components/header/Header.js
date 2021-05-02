@@ -3,6 +3,7 @@ import Headroom from "react-headroom";
 import "./Header.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
+import portfolioImage from "../../assets/images/image 11.jpg"
 import {
   greeting,
   workExperiences,
@@ -24,11 +25,18 @@ function Header() {
 
   return (
     <Headroom>
+        
       <header className={isDark ? "dark-menu header" : "header"}>
+        <div className="d-flex flex-row">
+        <div className="col-lg-3">
+        <img src={portfolioImage} alt="" height="190px"/>
+        </div>
+        <div style={{width:'80%',marginLeft:'180px'}} className="col-lg-9">
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          {/* <span className="grey-color"> &lt;</span> */}
+          {/* <span className="logo-name">{greeting.username}</span> */}
+        
+          {/* <span className="grey-color">/&gt;</span> */}
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -78,6 +86,8 @@ function Header() {
             </a>
           </li>
         </ul>
+        </div>
+        </div>
       </header>
     </Headroom>
   );
