@@ -1,11 +1,12 @@
-.resume-btn {
-  margin-left: 610px;
-  margin-top: 300px;
-}
 .bg-image {
-  background-image: url("../ResumePdf/retrosupply-jLwVAUtLOAQ-unsplash.jpg");
-  background-size: 1360px 800px;
-  background-repeat: no-repeat;
+  background: url("../ResumePdf/retrosupply-jLwVAUtLOAQ-unsplash.jpg") no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 520px;
+  width: 100%;
 }
 .digitalCv {
   height: 1500px;
@@ -26,4 +27,7 @@ hr.new {
 
 .address {
   margin-left: 200px;
+}
+.resume-btn {
+  margin-top: 250px;
 }

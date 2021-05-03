@@ -7,38 +7,14 @@ const Resume = () => {
     return (
         <section >
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2  mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link mr-5" href="/home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link mr-5" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link mr-5" href="#" >Disabled</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-
-
-
-            <div className="bg-image">
-            <a href={ResumePdf} className="btn btn-danger resume-btn" download="resumePdf">Download Resume</a>
+            <div className="bg-image text-center">
+            <a href={ResumePdf} className="btn btn-danger resume-btn " download="resumePdf">Download Resume</a>
             </div>
 
             <br/><br/><br></br>
 
         
-<section className="digitalCv">
+<section className="digitalCv ">
     <div className="row d-flex flex-row">
      <div className="ml-5  ">
          <h1 className="mt-5">Syed Gaziul Haque</h1>

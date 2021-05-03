@@ -8,12 +8,16 @@ import {
 import Contract from "./Page/Contract/Contract";
 import Resume from "./Page/Resume/Resume";
 import MyProject from "./Page/MyProject/MyProject";
+import Header from "./components/header/Header";
 
 
 function App() {
   return (
     
+
+   
     <Router>
+       <Header/>
       <Switch>
         <Route exact path="/">
         <Home/>
