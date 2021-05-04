@@ -40,11 +40,11 @@ const MyProject = () => {
     <span class="sr-only">Next</span>
   </a>
   <h3 className="container">Car Surgeous</h3>
-      <p className="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nulla perspiciatis illo iusto voluptates veniam libero odio blanditiis minima laboriosam quisquam officiis tempore eum rem voluptate doloribus, esse ex est. Dolorem qui odit minus! Necessitatibus odio cupiditate autem ad voluptatum.</p>
+      <p className="container">Admin can make admin to another email.Only when the admin loggedin to admin panel the admin can see the dashboard and he can manage services, add multiple services and those services will be displayed in the home page.</p>
 
-      <button className="btn btn-danger ml-2"> <a href="https://github.com/MikatSyed/shopping-mafia-client" target="blank">Client </a></button>
-               <button className="btn btn-primary ml-3"> <a href="https://github.com/Porgramming-Hero-web-course/full-stack-server-MikatSyed" target="blank">Server </a></button>
-               <button className="btn btn-warning   ml-2"> <a href="https://shoping-monster.web.app/" target="blank">See Live </a></button>
+      <button className="btn btn-danger ml-2"> <a href="https://github.com/MikatSyed/car-surgeous-client" target="blank">Client </a></button>
+               <button className="btn btn-primary ml-3"> <a href="https://github.com/MikatSyed/car-surgeous-server" target="blank">Server </a></button>
+               <button className="btn btn-warning   ml-2"> <a href="https://car-surgeous.web.app/" target="blank">See Live </a></button>
 </div>
  </div>
 
@@ -72,11 +72,10 @@ const MyProject = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-  <h3 className="container">Car Surgeous</h3>
-      <p className="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nulla perspiciatis illo iusto voluptates veniam libero odio blanditiis minima laboriosam quisquam officiis tempore eum rem voluptate doloribus, esse ex est. Dolorem qui odit minus! Necessitatibus odio cupiditate autem ad voluptatum.</p>
-
+  <h3 className="container">Shoping Monster</h3>
+      <p className="container">User Authentication With Google-backed application development software firebase.Admin can add multiple product which will be displayed in the home page.A user can order any product and order will be save in the order page</p>
       <button className="btn btn-danger ml-2"> <a href="https://github.com/MikatSyed/shopping-mafia-client" target="blank">Client </a></button>
-               <button className="btn btn-primary ml-3"> <a href="https://github.com/Porgramming-Hero-web-course/full-stack-server-MikatSyed" target="blank">Server </a></button>
+               <button className="btn btn-primary ml-3"> <a href="https://github.com/MikatSyed/shopping-mafia-server" target="blank">Server </a></button>
                <button className="btn btn-warning   ml-2"> <a href="https://shoping-monster.web.app/" target="blank">See Live </a></button>
 </div>
  </div>
@@ -105,12 +104,11 @@ const MyProject = () => {
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-  <h3 className="container">Car Surgeous</h3>
-      <p className="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nulla perspiciatis illo iusto voluptates veniam libero odio blanditiis minima laboriosam quisquam officiis tempore eum rem voluptate doloribus, esse ex est. Dolorem qui odit minus! Necessitatibus odio cupiditate autem ad voluptatum.</p>
-
-      <button className="btn btn-danger ml-2"> <a href="https://github.com/MikatSyed/shopping-mafia-client" target="blank">Client </a></button>
-               <button className="btn btn-primary ml-3"> <a href="https://github.com/Porgramming-Hero-web-course/full-stack-server-MikatSyed" target="blank">Server </a></button>
-               <button className="btn btn-warning   ml-2"> <a href="https://shoping-monster.web.app/" target="blank">See Live </a></button>
+  <h3 className="container">Riding Mafia</h3>
+      <p className="container">Single page Application With Mordern JavaScript Library React.js.User Authentication With Google-backed application development software firebaseUsers Can Search By their Destination Address & See Available Rides through map</p>
+      <button className="btn btn-danger ml-2"> <a href="https://github.com/MikatSyed/mafia-rider" target="blank">Client </a></button>
+              
+               <button className="btn btn-warning   ml-2"> <a href="https://github.com/MikatSyed/mafia-rider" target="blank">See Live </a></button>
 </div>
  </div>
 

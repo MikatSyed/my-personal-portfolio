@@ -47,9 +47,9 @@ export default function EducationCard({school}) {
               </p>
               <p className="education-text-desc">{school.desc}</p>
               <div className="education-text-bullets">
-                <ul>
+                {/* <ul>
                   <GetDescBullets descBullets={school.descBullets} />
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
